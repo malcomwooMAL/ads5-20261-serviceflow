@@ -27,10 +27,10 @@ import 'modules/servicos/presentation/pages/servicos_list_page.dart';
 import 'modules/servicos/presentation/pages/servico_form_page.dart';
 
 //importacoes das classes relacionadas ao tecnico.model
-import 'package:serviceflow/app/modules/tecnicos/tecnico.model.dart';
-import 'modules/tecnicos/tecnico.service.dart';
-import 'modules/tecnicos/tecnico.validation.dart';
-import 'modules/tecnicos/tecnico.repository.dart';
+import 'package:serviceflow/app/modules/tecnicos/data/tecnico.model.dart';
+import 'package:serviceflow/app/modules/tecnicos/domain/tecnico.service.dart';
+import 'package:serviceflow/app/modules/tecnicos/domain/tecnico.validation.dart';
+import 'package:serviceflow/app/modules/tecnicos/data/tecnico.repository.dart';
 import 'modules/tecnicos/presentation/pages/tecnicos_list_page.dart';
 import 'modules/tecnicos/presentation/pages/tecnico_form_page.dart';
 

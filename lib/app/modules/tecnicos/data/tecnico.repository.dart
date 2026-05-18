@@ -1,5 +1,5 @@
 import 'package:serviceflow/app/core/base/base.repository.dart';
-import 'package:serviceflow/app/modules/tecnicos/tecnico.model.dart';
+import 'package:serviceflow/app/modules/tecnicos/data/tecnico.model.dart';
 
 /**
  * Camada de Repositorio, o qual fará a gestão direta do SQLite, 

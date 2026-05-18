@@ -1,6 +1,6 @@
 import 'package:serviceflow/app/core/base/base.validation.dart';
-import 'package:serviceflow/app/modules/tecnicos/tecnico.model.dart';
-import 'package:serviceflow/app/modules/tecnicos/tecnico.repository.dart';
+import 'package:serviceflow/app/modules/tecnicos/data/tecnico.model.dart';
+import 'package:serviceflow/app/modules/tecnicos/data/tecnico.repository.dart';
 
 /**
  * Camada de Validação 
