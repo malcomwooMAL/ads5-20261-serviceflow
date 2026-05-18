@@ -13,8 +13,8 @@ import 'package:image_picker/image_picker.dart';
 
 import 'package:serviceflow/app/modules/clientes/client.repository.dart';
 import 'package:serviceflow/app/modules/clientes/cliente.model.dart';
-import 'package:serviceflow/app/modules/tecnicos/tecnico.repository.dart';
-import 'package:serviceflow/app/modules/tecnicos/tecnico.model.dart';
+import 'package:serviceflow/app/modules/tecnicos/data/tecnico.repository.dart';
+import 'package:serviceflow/app/modules/tecnicos/data/tecnico.model.dart';
 import 'package:serviceflow/app/modules/servicos/servico.repository.dart';
 
 class OrdemServicoFormPage extends StatefulWidget {

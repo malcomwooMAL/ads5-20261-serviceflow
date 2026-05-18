@@ -1,4 +1,5 @@
 import 'package:serviceflow/app/modules/usuarios/usuario.schedule.dart';
+import 'package:serviceflow/app/modules/tecnicos/data/tecnico.schedule.dart';
 
 /// Gerenciador central de schedules
 ///
@@ -132,6 +133,7 @@ class ScheduleManager {
     // Registrar automaticamente schedules das features implementadas
     _schedules.addAll([
       UsuarioSchedule(), // Singleton já existente
+      TecnicoSchedule(),
       // Adicionar novos schedules aqui conforme implementados:
       // ClienteSchedule(),
       // OrdemServicoSchedule(),

@@ -8,7 +8,7 @@ import 'package:image_picker/image_picker.dart';
 import 'package:flutter/services.dart'; 
 import 'dart:developer' as developer;
 import 'package:serviceflow/app/modules/clientes/client.repository.dart';
-import 'package:serviceflow/app/modules/tecnicos/tecnico.repository.dart';
+import 'package:serviceflow/app/modules/tecnicos/data/tecnico.repository.dart';
 
 class OrdemServicoDetalhesPage extends StatefulWidget {
   final OrdemServicoService service;

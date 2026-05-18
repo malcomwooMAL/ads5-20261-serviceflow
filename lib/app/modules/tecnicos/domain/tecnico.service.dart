@@ -1,7 +1,7 @@
 import 'package:serviceflow/app/core/base/base.service.dart';
-import 'package:serviceflow/app/modules/tecnicos/tecnico.model.dart';
-import 'package:serviceflow/app/modules/tecnicos/tecnico.repository.dart';
-import 'package:serviceflow/app/modules/tecnicos/tecnico.validation.dart';
+import 'package:serviceflow/app/modules/tecnicos/data/tecnico.model.dart';
+import 'package:serviceflow/app/modules/tecnicos/data/tecnico.repository.dart';
+import 'package:serviceflow/app/modules/tecnicos/domain/tecnico.validation.dart';
 
 class TecnicoService extends BaseService<Tecnico, TecnicoRepository, TecnicoValidation> {
   TecnicoService(TecnicoValidation validation, TecnicoRepository repository)
